@@ -3,6 +3,9 @@ import os
 from app import create_app, db
 from app.models import User
 
+
+# comment
+
 if __name__ == '__main__':
     app = create_app(os.environ.get('FLASK_CONFIG', 'development'))
     with app.app_context():
